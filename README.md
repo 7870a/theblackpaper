@@ -30,3 +30,4 @@
 ```
 apt install curl ; apt install git -y ; git clone git://github.com/7870a/theblackpaper ; cd theblackpaper ; sh blackpaper.sh 
 ```
+<img width="50%" src="https://j.top4top.io/p_1786uxaz81.jpg"/>
