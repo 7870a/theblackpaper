@@ -1,8 +1,8 @@
-##Author
+## Author
 <p>Author 7870a</p>
 <p>Team The Black Paper</p>
 
-##Info
+## Info
 <p align="center">
 <a href="#"><img title="Made in Indonesia" src="https://img.shields.io/badge/MADE%20IN-INDONESIA-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
