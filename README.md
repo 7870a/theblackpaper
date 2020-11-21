@@ -1,3 +1,8 @@
+#Author
+<p>Author 7870a</p>
+<p>Team The Black Paper</p>
+
+#Info
 <p align="center">
 <a href="#"><img title="Made in Indonesia" src="https://img.shields.io/badge/MADE%20IN-INDONESIA-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
@@ -12,3 +17,4 @@
 <a href="https://github.com/7870a/theblackpaper/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/7870a/theblackpaper?color=red&style=flat-square"></a>
 <a href="https://github.com/7870a/theblackpaper/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/7870a/theblackpaper?label=Watchers&color=blue&style=flat-square"></a>
 </p>
+
