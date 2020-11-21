@@ -18,3 +18,15 @@
 <a href="https://github.com/7870a/theblackpaper/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/7870a/theblackpaper?label=Watchers&color=blue&style=flat-square"></a>
 </p>
 
+## Installation :
+
+* `apt update`
+* `apt install git -y`
+* `apt install curl`
+* `git clone git://github.com/7870a/theblackpaper`
+* `cd theblackpaper`
+#### > Run : `sh blackpaper.sh`
+## Single Command :
+```
+apt install curl ; apt install git -y ; git clone git://github.com/7870a/theblackpaper ; cd theblackpaper ; sh blackpaper.sh 
+```
