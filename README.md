@@ -32,5 +32,5 @@ apt install curl ; apt install git -y ; git clone git://github.com/7870a/theblac
 ```
 
 
-#### > Donate Me On (https://saweria.co/donasinyaplis)
+#### > Donate Me On (https://saweria.co/developerndeso)
 
