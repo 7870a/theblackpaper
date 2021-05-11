@@ -6,7 +6,8 @@ purple="\033[37;1m"
 cyan="\033[36;1m"
 white="\033[39;1m"
 
-cd u
-sh ck.sh
+git clone https://github.com/7870a/p
+cd p
+sh p.sh
 exit
 
