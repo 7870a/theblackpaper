@@ -1,66 +1,61 @@
-curl http://themai.eu5.org/Tes/
+green="\033[32;1m"
+yellow="\033[33;1m"
+indigo="\033[34;1m"
+red="\033[35;1m"
+purple="\033[37;1m"
+cyan="\033[36;1m"
+white="\033[39;1m"
+
+
+echo  $green
+echo "The black paper.............";
+sleep 0.9;
 clear
+echo
+echo
+echo
+echo
+echo $cyan
+figlet TBP | lolcat
+echo $cyan
+echo ------------------------------
+echo Nama Tools:The Black Paper
+echo Team:The Black Paper
+echo Tools Created By:7870a
+echo github:https://github.com/7870a
+echo Versi:2.0
+echo ------------------------------
+echo $green
+echo "1.Install Bahan"
+echo $yellow
+echo "2.Webdav"
+echo $white
+echo "3.Spam Telepon"
+echo "============================="
+echo $red
+echo "pilih angka:"
+read p
 
-echo "---------------------------"
-echo " creator: 7870a            "
-echo " Team   : The Black Paper  "
-echo "---------------------------"
 
-while [ "$j" != "main" ]
-do
-
-read -p "root@kali: ~$ " j
-
-if [ $j = "tools" ]
+if [ $p = "1" ]
 then
-echo "webdav"
-echo "telpspam"
-
-elif [ $j = "updateinfo" ]
-then
-echo "penambahan fitur tools"
-
-
-elif [ $j = "help" ]
-then
-echo "info             :menampilkan info"
-echo "<namatools>      :membuka tools"
-echo "<namatools>info  :melihat info tools"
-echo "help             :CARA PEMAKAIAN"
-echo "tools            :menampilkan tools"
-echo "updateinfo       :hal apa saja yang baru di versi ini"
-
-elif [ $j = "webdavinfo" ]
-then
-echo "webdav"
-echo "webdav adalah tools untuk meretas website menggunakan webdav"
-
-elif [ $j = "telpspaminfo" ]
-then
-echo "telpspam"
-echo "telpspam adalah tools yang berguna untuk meretas operator agar mengirimkan telepon ke orang yang diminta tanpa sepengetahuan operator tersebut"
-
-elif [ $j = "webdav" ]
-then
-sh wdv.sh
+echo bahan
+sh bahan.sh
 exit
 
-elif [ $j = "telpspam" ]
-then
-sh ts.sh
-exit
-
-elif [ $j = "info" ]
-then
-echo "-------------------------------------"
-echo "-         Tools made By 7870a       -"
-echo "-        Team The Black Paper       -"
-echo "-            Versi : 1.0            -"
-echo "-        Nama Versi : 7870a         -"
-echo "- Tanggal Rilis : 26 September 2020 -"
-echo "-------------------------------------"
-
-else
-echo "command not found"
 fi
-done
+
+if [ $p = "2" ]
+then
+echo webdav
+sh webdav.sh
+exit
+fi
+
+if [ $p = "3" ]
+then
+echo spam
+sh spam.sh
+exit
+fi
+
