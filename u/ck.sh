@@ -3,7 +3,7 @@ echo "ck $0"
 echo "ck $1"
 clear
 
-if [ $1 -gt 1 ]
+if [ $1 -gt 2 ]
 then
 
 sh upd.sh
