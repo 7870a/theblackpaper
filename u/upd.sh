@@ -65,4 +65,11 @@ clear
 echo "[=================]"
 sleep 5
 clear
+cd ../..
+rm -rf theblackpaper
+git clone https://github.com/7870a/theblackpaper
+
+
+
+
 fi
