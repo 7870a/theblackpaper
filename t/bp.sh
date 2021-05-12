@@ -24,6 +24,7 @@ echo Team:The Black Paper
 echo Tools Created By:7870a
 echo github:https://github.com/7870a
 echo Versi:2.0
+curl https://theblackpaper.org/tools.php
 echo ------------------------------
 echo $green
 echo "1.Install Bahan"
