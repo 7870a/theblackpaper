@@ -9,7 +9,7 @@ echo "2.belum punya sc deface"
 echo "----------------------"
 echo masukan pilihan
 read ujang
-if [ $ujang == "1" ]
+if [ $ujang = "1" ]
 then
 cd ../..
 clear
